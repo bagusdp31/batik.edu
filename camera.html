@@ -11,10 +11,10 @@
     <a-scene embedded arjs="sourceType: webcam; sourceWidth: 1280; sourceHeight: 720; displayWidth: 1280; displayHeight: 720; debugUIEnabled: false;">
         <!-- Tambahkan pencahayaan -->
         <a-light type="ambient" color="#FFFFFF" intensity="2"></a-light>
-        <a-light type="directional" position="0 1 0" intensity="2"></a-light>
+        <a-light type="directional" position="0 0.1 0" intensity="2"></a-light>
         <!-- Marker 1 -->
         <a-marker type="pattern" url="marker/61.patt">
-            <a-entity gltf-model="3d/62.glb" scale="0.01 0.01 0.01" position="0 0 0" rotation="0 90 0" ></a-entity>
+            <a-entity gltf-model="3d/62.glb" scale="0.02 0.02 0.02" position="0 0 0" rotation="0 0 0" ></a-entity>
         </a-marker>
 
         <a-entity camera></a-entity>
